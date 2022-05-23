@@ -2,15 +2,15 @@
 
 1.console manipulation
 
-    ---showing message
-    ```javaScript
-        consolePrint(msg) -->msg(any)
-    ```
-    ---showing error/warning
-    ```javaScript
-        consoleError(title, msg)
-        consoleWarn(title, msg)
-    ```
+---showing message
+```javaScript
+consolePrint(msg) -->msg(any)
+```
+---showing error/warning
+```javaScript
+consoleError(title, msg)
+consoleWarn(title, msg)
+```
 2.Getting window information
     i. dimensions 
             innerwidth()
