@@ -1,6 +1,6 @@
-easyDom.js
+# easyDom.js
 
-1. console manipulation
+*console manipulation
 
     showing message
         consolePrint(msg) -->msg(any)
@@ -8,7 +8,7 @@ easyDom.js
         consoleError(title, msg)
         consoleWarn(title, msg)
 
-2.Getting window information
+*Getting window information
     i. dimensions 
             innerwidth()
             outerwidth()
@@ -33,8 +33,8 @@ easyDom.js
                 setUrl(url)
                 newPaget(url)
 
-3. Time and date
-(time object fetch naew information after every 1 second)
+*Time and date
+(time object fetch new information after every 1 second)
 
 getting data
     time.
@@ -48,7 +48,7 @@ getting data
         day() --> return string
         timezone()
 
-4. Document Element manipulation
+*Document Element manipulation
 
     getting Elements
         getById(elementId)
