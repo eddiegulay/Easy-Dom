@@ -1,6 +1,6 @@
 # easyDom.js
 
-1.console manipulation
+1. console manipulation
 
 - showing message
 ```javaScript
@@ -11,76 +11,100 @@ consolePrint(msg) -->msg(any)
 consoleError(title, msg)
 consoleWarn(title, msg)
 ```
-2.Getting window information
-    i. dimensions 
-            innerwidth()
-            outerwidth()
-            innerheight()
-            outerheight()
-    ii. other
-            vendor()
-            appVersion()
-            currentLanguage()
+2. Getting window information
+- dimensions 
+```javascript
+innerwidth()
+outerwidth()
+innerheight()
+outerheight()
+```
 
-    iii. Document information
-        a. get..
-            doc.
-                getTitle()
-                getHost()
-                getUrl()
-                getProtocal()
-                getPath()
-        b.set..
-            doc.
-                setTitle(title)
-                setUrl(url)
-                newPaget(url)
+- other
+```javascript
+vendor()
+appVersion()
+currentLanguage()
+```
 
-*Time and date
-(time object fetch new information after every 1 second)
+- Document information
+  - get
+```javascript
+doc.
+    getTitle()
+    getHost()
+    getUrl()
+    getProtocal()
+    getPath()
+```
+   - set
+```javascript
+doc.
+    setTitle(title)
+    setUrl(url)
+    newPaget(url)
+```
 
-getting data
-    time.
-        hour()
-        minute()
-        second()
-        milisecond()
-        date()
-        month()
-        year()
-        day() --> return string
-        timezone()
+3. Time and date
 
-*Document Element manipulation
+*time object fetch new information after every 1 second*
 
-    getting Elements
-        getById(elementId)
-        getByClass(elementsClassName)
-        getByTag(elementTagName)
-        getByName(elementsName)
+- getting data
+```javascript
+time.
+    hour()
+    minute()
+    second()
+    milisecond()
+    date()
+    month()
+    year()
+    day() --> return string
+    timezone()
+```
 
-    Setting and removing attriutes
-        newAttribute(element, attributeName, attributeValue)
-        removeAttribute(element, attributeName)
+4. Document Element manipulation
 
-    class manipulation
-        addClass(element, newClassName)
-        removeClass(element, oldClassName)
-        classToggle(element, classToken)
-        containClassName(element, requiredClassName)
+- getting Elements
+```javascript
+getById(elementId)
+getByClass(elementsClassName)
+getByTag(elementTagName)
+getByName(elementsName)
+```
 
-    creating new child element
-        newChild(base_parent, elementTag, newChildId, newChildClassList, attributeName, attributeValue)
-        removeElement(parent, child)
+- Setting and removing attriutes
+```javascript
+newAttribute(element, attributeName, attributeValue)
+removeAttribute(element, attributeName)
+```
 
-    Writing into elements
+- class manipulation
+```javascript
+addClass(element, newClassName)
+removeClass(element, oldClassName)
+classToggle(element, classToken)
+containClassName(element, requiredClassName)
+```
 
-    innerHTML
-        printIn(element, text)
-        addPrintIn(element, text)
-    textContent
-        writeIn(element, text)
-        addWriteIn(element, text)
-        writeInAll(className, text)
-        addWriteInAll(className, text)
-        typewriter(elementId, text, speed) --> speed in microsecond to write one latter
+- creating new child element
+```javascript
+newChild(base_parent, elementTag, newChildId, newChildClassList, attributeName, attributeValue)
+removeElement(parent, child)
+```
+
+- Writing into elements
+
+  - innerHTML
+```javascript
+printIn(element, text)
+addPrintIn(element, text)
+```
+  - textContent
+```javascript
+writeIn(element, text)
+addWriteIn(element, text)
+writeInAll(className, text)
+addWriteInAll(className, text)
+typewriter(elementId, text, speed) --> speed in microsecond to write one latter
+```
