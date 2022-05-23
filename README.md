@@ -1,14 +1,17 @@
 # easyDom.js
 
-*console manipulation
+1.console manipulation
 
-    showing message
+    ---showing message
+    ```javaScript
         consolePrint(msg) -->msg(any)
-    showing error/warning
+    ```
+    ---showing error/warning
+    ```javaScript
         consoleError(title, msg)
         consoleWarn(title, msg)
-
-*Getting window information
+    ```
+2.Getting window information
     i. dimensions 
             innerwidth()
             outerwidth()
