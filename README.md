@@ -2,11 +2,11 @@
 
 1.console manipulation
 
---- showing message
+- showing message
 ```javaScript
 consolePrint(msg) -->msg(any)
 ```
---- showing error/warning
+- showing error/warning
 ```javaScript
 consoleError(title, msg)
 consoleWarn(title, msg)
