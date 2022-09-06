@@ -196,7 +196,7 @@ function typewriter(elementId, text, speed) {
     var interval = window.setInterval(function () {
         pad.textContent += text.charAt(i);
         i++;
-        if (i >= text.lenght) {
+        if (i >= text.length) {
             clearInterval(interval);
         }
     }, speed)
