@@ -2,6 +2,10 @@
 
 `easyDom.js` is a JavaScript file containing a list of functions to reduce redundant code writing for common tasks in DOM manipulation, console manipulation, and retrieving information about the window and document. 
 
+## Contributors
+
+- [Edgar Gulay](https://eddiegulay.me)
+
 ## Functions
 
 ### Console Manipulation
