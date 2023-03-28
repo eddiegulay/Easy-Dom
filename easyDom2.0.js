@@ -72,7 +72,7 @@ var doc = {
 
 //getting time and date
 var date = new Date;
-window.setInterval(function(){date = new Date;}, 1000);//update time
+window.setInterval(function () { date = new Date; }, 1000);//update time
 var time = {
     hour: function () { return date.getHours() },
     minute: function () { return date.getMinutes() },
@@ -158,7 +158,7 @@ function newChild(base_parent, elementTag, newChildId, newChildClassList, attrib
     if (newChildClassList != undefined) {
         element.className = newChildClassList;
     }
-    if(attributeName != undefined || attributeValue != undefined){
+    if (attributeName != undefined || attributeValue != undefined) {
         newAttribute(element, attributeName, attributeValue)
     }
     return element;
@@ -202,5 +202,3 @@ function typewriter(elementId, text, speed) {
     }, speed)
 
 }
-
-

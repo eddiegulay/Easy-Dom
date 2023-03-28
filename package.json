@@ -1,0 +1,23 @@
+{
+    "name": "easyDom",
+    "version": "13.0",
+    "description": "A lightweight library for simplifying DOM manipulation in JavaScript",
+    "main": "easyDom3.0.js",
+    "keywords": [
+      "dom",
+      "manipulation",
+      "javascript"
+    ],
+    "author": "Eddie Gulay",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/eddygulled/Easy-Dom.git"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  }
+  
