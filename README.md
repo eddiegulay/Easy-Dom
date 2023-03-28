@@ -3,7 +3,7 @@
 ``` EasyDom ``` is a JavaScript library designed to simplify common web development tasks by providing a collection of functions that can be used to interact with HTML elements, manipulate the DOM, and perform various other operations. 
 
 ---
-## What's new in version 3.0
+## 🎉 What's new in version 3.0
 
 - Added `getByClass`, `getByName`, and `getByTag` methods for selecting elements by class name, name attribute, and tag name, respectively.
 - Added `innerwidth`, `outerwidth`, `innerheight`, and `outerheight` methods for getting the width and height of the browser window.
@@ -24,6 +24,12 @@ To use EasyDom in your project, simply include the `easyDom3.0.js` file in your 
 ```
 
 # API References
+
+### ⚠⚠ Deprecation warning
+```js 
+navigator.vendor // is deprecated
+navigator.appVersion // is deprecated
+```
 
 ### Console Manipulation
 
@@ -113,6 +119,7 @@ $.ajax("GET", "/api/data", true, function(response) {
 });
 ```
 ---
+
 ## Contributors
 
 - [Edgar Gulay](https://eddiegulay.me)

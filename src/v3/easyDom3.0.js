@@ -20,16 +20,16 @@ var $ = {
     getByTag: function (tagName) {
         return document.getElementsByTagName(tagName);
     },
-    innerwidth: function () {
+    innerWidth: function () {
         return window.innerWidth;
     },
-    outerwidth: function () {
+    outerWidth: function () {
         return window.outerWidth;
     },
-    innerheight: function () {
+    innerHeight: function () {
         return window.innerHeight;
     },
-    outerheight: function () {
+    outerHeight: function () {
         return window.outerHeight;
     },
     vendor: function () {
@@ -51,7 +51,7 @@ var $ = {
         getUrl: function () {
             return document.location.href;
         },
-        getProtocal: function () {
+        getProtocol: function () {
             return document.location.protocol;
         },
         getPath: function () {
